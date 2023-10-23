@@ -1,0 +1,79 @@
+.MenuConytainer {
+  margin: 0 350px;
+}
+
+.menuTitle {
+  margin: 10px 0;
+  padding: 48px 0;
+  text-align: center;
+}
+
+.menuTitle p {
+  font-family: Verdana, sans-serif;
+  margin: 18px 0;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #000000;
+}
+
+.menu {
+  width: 100%;
+  padding: 8px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+.eatMenuButton {
+  text-align: center;
+  width: 100%;
+}
+
+.eatsMenu,
+.drinksMenu {
+  padding: 48px, 16px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.menu button {
+  background-color: #fff;
+  color: #000;
+  font-size: 18px;
+  font-family: "Inconsolata", sans-serif;
+  border: none;
+  cursor: pointer;
+}
+
+.menuItem {
+  padding: 0 18px;
+}
+
+/* #eats {
+  display: none;
+} */
+
+.eat,
+.drink {
+  font-size: 18px;
+  margin: 10px 0;
+  font-family: "Inconsolata", sans-serif;
+  color: #000;
+}
+
+.composition {
+  margin: 18px 0;
+  font-size: 16px;
+  font-family: "Inconsolata", sans-serif;
+  color: #757575;
+}
+
+.menuImage {
+  margin-top: 16px;
+}
+
+.menuImage img {
+  filter: grayscale(50%);
+  width: 100%;
+  margin-top: 16px;
+}

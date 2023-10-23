@@ -1,0 +1,44 @@
+.About {
+  margin: 0 350px;
+  align-self: center;
+}
+
+.aboutTitle {
+  margin: 10px 0;
+  padding: 64px 0;
+  text-align: center;
+}
+
+.aboutDescription p {
+  font-family: Verdana, sans-serif;
+  margin: 18px 0;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #000000;
+}
+
+.leftBar {
+  margin: 16px 0;
+  padding: 0 16px;
+  border-left: 6px solid #ccc;
+  color: #000;
+  background-color: #f1f1f1;
+}
+
+.leftBar p {
+  padding: 9px 0;
+  /* font-size: 18px; */
+}
+
+.aboutImage img {
+  filter: grayscale(50%);
+  width: 100%;
+  margin-top: 16px;
+}
+
+.aboutFooter p {
+  margin: 18px 0;
+  font-family: "Inconsolata", sans-serif;
+  font-size: 18px;
+  color: #000;
+}

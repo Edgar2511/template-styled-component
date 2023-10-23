@@ -1,0 +1,57 @@
+.Where {
+  margin: 0 350px;
+  padding-bottom: 32px;
+}
+
+.whereTitle {
+  margin: 10px 0;
+  padding: 48px 0;
+  text-align: center;
+}
+
+.findPlace p {
+  margin: 18px 0;
+  font-size: 18px;
+  font-family: "Inconsolata", sans-serif;
+}
+
+.findPlace img {
+  filter: grayscale(50%);
+  width: 100%;
+  margin-top: 16px;
+}
+
+.findPlace p span {
+  font-size: 18px;
+  padding: 0 8px;
+  background-color: #000;
+  color: #fff;
+}
+
+.formTitle {
+  font-family: "Inconsolata", sans-serif;
+  margin: 18px 0;
+  font-size: 18px;
+  color: #000;
+}
+
+.form {
+  gap: 15px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.form button {
+  width: 20%;
+  padding: 8px 16px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.form input {
+  width: 100%;
+  padding: 8px 16px;
+}

@@ -1,0 +1,52 @@
+.Header {
+  background-image: url("https://www.w3schools.com/w3images/coffeehouse.jpg");
+  background-position: center;
+  background-size: cover;
+  filter: grayscale(50%);
+  padding-top: 49px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  text-align: center;
+}
+.headerLeft {
+  margin: 12px 24px;
+  align-self: flex-end;
+}
+
+.headerLeft span {
+  background-color: #000000;
+  color: #fff;
+  padding: 0 8px;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 4px;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-weight: 400;
+}
+
+.headerCenter {
+  align-self: center;
+}
+
+.headerCenter span {
+  font-family: "Inconsolata", sans-serif;
+  line-height: 1.5;
+  font-size: 90px;
+  color: #ffffff;
+}
+
+.headerRight {
+  margin: 12px 24px;
+  align-self: flex-end;
+}
+
+.headerRight span {
+  color: #fff;
+  padding: 0 8px;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 4px;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-weight: 400;
+}
